@@ -8,7 +8,7 @@ Docker Container Volume Backup for Nginx Proxy Manager Setup
 ```console
 docker run --rm --volumes-from npm-app-1 -v $(pwd):/backup busybox tar cvf /backup/npm_backup.tar /etc/letsencrypt /data
 ```
-You will get backup tar file in current directory save to somewhere safe.
+You will get backup tar file in current directory and save to somewhere safe.
 
 Explanation
 -------
