@@ -20,7 +20,7 @@ Explanation
 6. tar ==> The archiving tool.
 7. cvg ==> compressing option for tar.
 8. npm_backup.tar ==> Backup file name(You can change whatever you like)
-9. /etc/letsencrypt /data ==> Directories which need to be backup from the container. You can check docker compose file for those directories for volume.(Note: This will be change according to your docker compose setup)
+9. /etc/letsencrypt, /data ==> Directories which need to be backup from the container. You can check docker compose file for those directories for volume.(Note: This will be change according to your docker compose setup)
 
 Docker Container Volume Restore for Nginx Proxy Manager Setup
 -----
